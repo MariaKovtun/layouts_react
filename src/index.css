@@ -1,0 +1,57 @@
+.cards{
+  width: 1000px;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+  overflow:hidden;
+}
+.card{
+  width: 300px;
+  box-sizing: border-box;
+  display:inline-block;
+  border: 1px solid grey;
+}
+
+.card img {
+  width: 100%;
+}
+
+table {
+  width:98%;
+}
+
+.list-item {
+  background-color:gainsboro;
+  width: 50%;
+}
+
+.list-item img{
+  width:200px;
+  height:200px;
+}
+
+.right-corner{
+  position:absolute;
+  right:0px;
+  top:0px;
+}
+
+.left-corner{
+  position:absolute;
+  left:0px;
+  top:opx;
+}
+
+.price-info{
+  position:relative;
+}
+
+.text-red{
+  color:red;
+  font-size: 20px;
+}
+
+button {
+  font-size: 15px !important;
+  border: 1px solid red;
+}
